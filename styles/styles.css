@@ -24,7 +24,7 @@ p {
 }
 aside {
     margin: 1em;
-    border: 1 px solid #000;
+    border: 1 px;
     padding: 1em;
     background-color: #eee;
     color: #333;
