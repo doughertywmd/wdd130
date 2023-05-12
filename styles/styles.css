@@ -83,7 +83,6 @@ nav li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  align-items: center;
 }
 
 header, .grid,
@@ -92,6 +91,7 @@ footer {
   margin: 0 auto;
   background-color: lightgray;
   padding: 20px;
+  align-items: center;
 }
 main {
   grid-column: 2/3;
