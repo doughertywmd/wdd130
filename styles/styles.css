@@ -3,21 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-nav {
-    background-color: steelblue;
-    padding: 10px;
-    display: flex;
-}
-nav a {
-    color: white;
-    display: flex;
-    padding: 20px;
-}
-nav li {
-  margin-right: 10px;
-  padding: 5px;
-  background-color: lightgray;
-}
 h1 {
     width: 150px;
     height: auto;
@@ -83,11 +68,16 @@ nav {
 }
 nav a {
   display: block;
-  padding: 0.5rem;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
+  padding: 20px;
+}
+nav li {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: lightgray;
 }
 .grid {
   display: grid;
