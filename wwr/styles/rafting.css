@@ -134,6 +134,9 @@ img {
     margin-top: 2rem;
     padding: 1rem 0;
     background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
   }
   
   .footer a {
@@ -143,6 +146,7 @@ img {
   .footer img {
     width: 30px;
     height: 30px;
+    margin-left: 5px;
   }
   nav {
     background-color: steelblue;
@@ -150,6 +154,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 10px;
   }
   nav a {
     display: block;
@@ -188,3 +193,35 @@ img {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+  header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+section {
+    padding: 20px;
+}
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer p {
+    margin-right: 10px;
+}
+footer img {
+    width: 30px;
+    margin-left: 5px;
+}
