@@ -327,3 +327,15 @@ figcaption {
 .contact-form form input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form form input[type="radio"],
+.contact-form form input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
