@@ -62,23 +62,22 @@
             <input type="email" id="email" name="email" required>
     
             <label for="purpose">Purpose of Message:</label>
-            <select id="purpose" name="purpose" required>
-                <label for="general-inquiry">
-                    <input type="radio" id="general-inquiry" name="purpose" value="general" required>
-                    General Inquiry
-                  </label>
-                  
-                  <label for="reservation-question">
-                    <input type="radio" id="reservation-question" name="purpose" value="reservation" required>
-                    Reservation Question
-                  </label>
-                  
-                  <label for="website-suggestion">
-                    <input type="radio" id="website-suggestion" name="purpose" value="suggestion" required>
-                    Website Suggestion
-                  </label>                  
-            </select>
-    
+        <div class="radio-group">
+            <label for="general-inquiry">
+                <input type="radio" id="general-inquiry" name="purpose" value="general" required>
+                General Inquiry
+            </label>
+
+            <label for="reservation-question">
+                <input type="radio" id="reservation-question" name="purpose" value="reservation" required>
+                Reservation Question
+            </label>
+
+            <label for="website-suggestion">
+                <input type="radio" id="website-suggestion" name="purpose" value="suggestion" required>
+                Website Suggestion
+            </label>
+        </div>
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
     
