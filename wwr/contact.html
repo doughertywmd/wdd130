@@ -31,7 +31,7 @@
           <p>Phone: 555-123-4567</p>
           <p>Email: contactus@raftingco.com</p>
           <div class="map-container">
-            <iframe src="https://www.google.com/maps?q=945W+Broadway,+Jackson,+WY+83001&output=embed" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps?q=945W+Broadway,+Jackson,+WY+83001&amp;output=embed" style="width: 100%; height: 300px; border: 0;" allowfullscreen></iframe>
           </div>
         </section>
     
@@ -54,6 +54,7 @@
         <section class="contact-form">
           <h2>Contact Form</h2>
           <form action="submit.php" method="POST">
+            
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
     
@@ -62,9 +63,20 @@
     
             <label for="purpose">Purpose of Message:</label>
             <select id="purpose" name="purpose" required>
-              <option value="general">General Inquiry</option>
-              <option value="reservation">Reservation Question</option>
-              <option value="suggestion">Website Suggestion</option>
+                <label for="general-inquiry">
+                    <input type="radio" id="general-inquiry" name="purpose" value="general" required>
+                    General Inquiry
+                  </label>
+                  
+                  <label for="reservation-question">
+                    <input type="radio" id="reservation-question" name="purpose" value="reservation" required>
+                    Reservation Question
+                  </label>
+                  
+                  <label for="website-suggestion">
+                    <input type="radio" id="website-suggestion" name="purpose" value="suggestion" required>
+                    Website Suggestion
+                  </label>                  
             </select>
     
             <label for="message">Message:</label>
