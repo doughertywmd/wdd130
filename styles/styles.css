@@ -139,3 +139,23 @@ footer img {
     width: 30px;
     margin-left: 5px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background-color: #333;
+  /* Removed duplicated padding and display property */
+}
+
+.footer a {
+  margin: 0 1rem;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
