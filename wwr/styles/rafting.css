@@ -56,9 +56,25 @@ body, h1, h2, h3, p, figure, figcaption, ul, li, table, th, td {
     margin-bottom: 10px;
   }
   
-  section img {
-    max-width: 100%;
-    margin-bottom: 10px;
+  section .trip {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .section .trip .image-wrapper {
+    max-width: 300px;
+  }
+  
+  .section .trip .image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .section .trip .text-box {
+    background-color: #f2f2f2;
+    padding: 10px;
   }
   
   section table {
